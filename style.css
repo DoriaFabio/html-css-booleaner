@@ -1,70 +1,92 @@
+/* Impostazioni generali della pagina */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", system-ui;
+    font-style: normal;
 }
-
+/* CSS header */
 header {
     background-color: #4EA0FF;
     height: 75px;
-    width: 100%;
     background-image: url("./immagini/pattern.png");
     background-size: 20%, 100%;
 }
-
+/* CSS main & footer */
+main, footer {
+    margin-left: 5px;
+}
+/* Dimensione immagine logo */
 .sizeimage {
     width: 10%;
     height: 100%;
     margin-left: 5px;
 }
-
-main, footer {
-    margin-left: 5px;
-}
-
+/* Font titolo */
 .roboto-regular {
     font-family: "Roboto", system-ui;
     font-weight: 400;
     font-style: normal;
 }
-
+/* colore grigio */
 .gray {
     color: #8E8E8E;
 }
-
+/* Colore azzurro */
 .bluecolor {
     color: #23AAE5;
 }
+/* Sfondo giallo */
 .bkg-yellow {
     background-color: yellow;
 }
+/* Note sotto le foto */
 .note {
     font-size: 10px;
 }
-thead {
+/* padding lista */
+ul {
+    padding: 20px;
+}
+/* Tabella CSS */
+table {
+    border-collapse: collapse;
+}
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+th {
+    text-align: left;
+}
+/* Sfondo celeste con scritta bianca */
+.bkg-blue {
     background-color: #20A9E5;
     color: white;
 }
-.bkg-blue {
+/* Sfondo azzurrino */
+.bkg-azur {
     background-color: #B1E5F2;
 }
+/* Sfondo foto 1 con scritta bianca */
 .bkg-photo1 {
     color: white;
     font-weight: bold;
     padding: 10px;
-    width: 300px;
+    width: 312px;
     height: 210px;
     background-image: url("./immagini/graph.jpg");
     background-repeat: no-repeat;
-    background-size: 300px, 300px;
 }
+/* Sfondo foto 2 con scritta bianca */
 .bkg-photo2 {
     color: white;
     font-weight: bold;
     padding: 10px;
-    width: 300px;
+    width: 312px;
     height: 210px;
     background-image: url("./immagini/monitor.jpg");
     background-repeat: no-repeat;
-    background-size: 300px, 300px;
 }
