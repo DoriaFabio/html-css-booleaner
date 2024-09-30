@@ -19,7 +19,7 @@ header {
 }
 
 main {
-    margin-left: 10px;
+    margin-left: 5px;
 }
 
 .roboto-regular {
@@ -37,4 +37,14 @@ main {
 }
 .bkg-yellow {
     background-color: yellow;
+}
+.note {
+    font-size: 10px;
+}
+thead {
+    background-color: #20A9E5;
+    color: white;
+}
+.bkg-blue {
+    background-color: #B1E5F2;
 }
