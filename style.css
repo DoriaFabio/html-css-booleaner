@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", system-ui;
 }
 header {
     background-color: #4EA0FF;
@@ -13,6 +14,10 @@ header {
 .sizeimage {
     width: 10%;
     height: 100%;
+    margin-left: 5px;
+}
+main {
+    margin-left: 5px;
 }
 .roboto-regular {
     font-family: "Roboto", system-ui;
