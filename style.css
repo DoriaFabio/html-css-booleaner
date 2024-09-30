@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: #4EA0FF;
+    height: 70px;
+    width:100%;
+    background-image: url("./immagini/pattern.png");
+    background-size: 20%, 100%;
+}
+.sizeimage {
+    width: 10%;
+    height: 100%;
+}
