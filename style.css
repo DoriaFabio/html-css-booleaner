@@ -2,31 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Roboto", system-ui;
 }
+
 header {
     background-color: #4EA0FF;
     height: 75px;
-    width:100%;
+    width: 100%;
     background-image: url("./immagini/pattern.png");
     background-size: 20%, 100%;
 }
+
 .sizeimage {
     width: 10%;
     height: 100%;
     margin-left: 5px;
 }
+
 main {
-    margin-left: 5px;
+    margin-left: 10px;
 }
+
 .roboto-regular {
     font-family: "Roboto", system-ui;
     font-weight: 400;
     font-style: normal;
-  }
-  .gray {
+}
+
+.gray {
     color: #8E8E8E;
-  }
-  .bluecolor{
+}
+
+.bluecolor {
     color: #23AAE5;
-  }
+}
+.bkg-yellow {
+    background-color: yellow;
+}
