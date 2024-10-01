@@ -54,12 +54,12 @@ table {
     border-collapse: collapse;
 }
 td {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-right: 50px;
 }
-th {
-    text-align: left;
+.w-50 {
+    width: 50%;
 }
 /* Sfondo celeste con scritta bianca */
 .bkg-blue {
